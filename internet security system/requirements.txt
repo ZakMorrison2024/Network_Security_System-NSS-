@@ -1,0 +1,1 @@
+pip install scapy flask flask_login requests python-nmap
