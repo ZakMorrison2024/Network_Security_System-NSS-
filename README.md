@@ -59,7 +59,7 @@ There is a small script at the first run that will install these packages automa
 - 'matplotlib',  # Plotting library for charts
 - 'ipaddress',  # Library for dealing with IP addresses
 
-Requires `nmap` and `npcap`
+Requires `nmap` https://nmap.org/ and `npcap` https://npcap.com/
 
 ## Defensive actions:
 - block_ip # Blocks Target IP
