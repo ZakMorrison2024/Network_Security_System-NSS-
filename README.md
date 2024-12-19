@@ -24,6 +24,21 @@ Everything is modular and free to edit.
 - This is just a fun project for no reason but to learn.
 - I plan on implementing this on a Raspberry Pi next to my hub 🙂
 
+## Installation:
+There is a small script at the first run that will install these packages automatically:
+
+### Required packages:
+- 'flask',  # Flask framework
+- scapy',  # Scapy library for packet manipulation
+- nmap',  # Python Nmap library for network scanning
+- 'requests',  # HTTP library for making requests
+- 'psutil',  # Library for system monitoring
+- 'matplotlib',  # Plotting library for charts
+- 'ipaddress',  # Library for dealing with IP addresses
+
+Requires `nmap` https://nmap.org/ and `npcap` https://npcap.com/
+
+
 ## TO USE:
 - run NSS.py
 - goto localhost:5000 in web-browser
@@ -45,21 +60,6 @@ Everything is modular and free to edit.
 - Message_admin
 - Scan
 - Simulation
-
-
-## Installation:
-There is a small script at the first run that will install these packages automatically:
-
-### Required packages:
-- 'flask',  # Flask framework
-- scapy',  # Scapy library for packet manipulation
-- nmap',  # Python Nmap library for network scanning
-- 'requests',  # HTTP library for making requests
-- 'psutil',  # Library for system monitoring
-- 'matplotlib',  # Plotting library for charts
-- 'ipaddress',  # Library for dealing with IP addresses
-
-Requires `nmap` https://nmap.org/ and `npcap` https://npcap.com/
 
 ## Defensive actions:
 - block_ip # Blocks Target IP
