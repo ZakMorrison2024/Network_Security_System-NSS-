@@ -81,7 +81,7 @@ Requires `nmap` https://nmap.org/ and `npcap` https://npcap.com/
 - throttle_brute_force # Limit Requests
 - check_ip_spoofing # Check for Spoofing
 - mitm_prevention # Prevents Man in the Middle Attack
-- Fake_data_injection # "Ah! Ah! Ahhhhhh!, You forgot the magic word!"
+- fake_data_injection # "Ah! Ah! Ahhhhhh!, You forgot the magic word!"
 
 ### -
 
