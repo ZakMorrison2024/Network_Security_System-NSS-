@@ -9,8 +9,16 @@ Everything is modular and free to edit.
 # FOR EDUCATIONAL PURPOSES ONLY!
 
 
+## Need to do:
+- Clean code and do something about the data structures
+- Fix UI
+- Fix Script not working in UI
+- Fix Bandwidth test
+- Fix logs not showing in Web-UI
+- And more!! : _ :
+
 ## Personal:
-- I have no idea about network security, this thing is 100% flawed, but I tried something left field.
+- I have no idea about network security, this thing is 100% flawed, but I tried something left field. (You can say whatever you want man, taunting me for trying is a sign of weakness :L)
 - I haven’t done vigorous testing; that is coming with more improvements.
 - This is just a fun project for no reason but to learn.
 - I plan on implementing this on a Raspberry Pi next to my hub 🙂
