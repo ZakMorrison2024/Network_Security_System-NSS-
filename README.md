@@ -10,6 +10,7 @@ Everything is modular and free to edit.
 
 
 ## Need to do:
+- SO MUCH TESTING ; _ ;
 - Clean code and do something about the data structures
 - Update Actions data structure
 - Fix UI
