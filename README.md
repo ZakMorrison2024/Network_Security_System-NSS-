@@ -50,8 +50,7 @@ Everything is modular and free to edit.
 There is a small script at the first run that will install these packages automatically:
 
 ### Required packages:
--'flask',  # Flask framework
--'flask-login',  # Flask login extension
+- 'flask',  # Flask framework
 - scapy',  # Scapy library for packet manipulation
 - nmap',  # Python Nmap library for network scanning
 - 'requests',  # HTTP library for making requests
