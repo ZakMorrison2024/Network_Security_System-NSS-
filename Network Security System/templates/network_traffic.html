@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Traffic Monitor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <!-- Bandwidth Box at the Top Right -->
+    <div style="position: absolute; top: 10px; right: 10px; background-color: #333; color: white; padding: 10px; border-radius: 8px;">
+        <h3>Bandwidth</h3>
+        <p>Download: {{ stats.download }} Mbps</p>
+        <p>Upload: {{ stats.upload }} Mbps</p>
+    </div>
+
+    <h1>Network Traffic Monitor</h1>
+    <p>Real-time network traffic monitoring with detailed packet counts, ports, and protocol information.</p>
+
+    <div class="graph-container">
+        <h3>Network Traffic Graph</h3>
+        <img src="{{ traffic_graph }}" alt="Traffic Graph">
+    </div>
+
+    <h3>Traffic Details</h3>
+    <table class="traffic-table">
+        <thead>
+            <tr>
+                <th>Protocol/Port</th>
+                <th>Packet Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for key, value in traffic_data.items() %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ value }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div class="speed">
+        <h3>Traffic Speed: {{ traffic_data["Speed"] }} packets/sec</h3>
+    </div>
+
+</body>
+</html>
