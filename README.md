@@ -40,6 +40,9 @@ There is a small script at the first run that will install these packages automa
 Requires `nmap` https://nmap.org/ and `npcap` https://npcap.com/
 
 
+- pip install flask scapy python-nmap requests psutil matplotlib ipaddress
+
+
 ## TO USE:
 - run NSS.py
 - goto localhost:5000 in web-browser
