@@ -18,6 +18,9 @@ Everything is modular and free to edit.
 
 ## Features:
 - **Flask - Web UI** - with various features and commands
+- **Scapy - Packet capture**
+- Packet Defence tactics against packets and malicious IPs
+- Logging system for information
 
 ### Pages:
 - Admin_dash
@@ -31,9 +34,6 @@ Everything is modular and free to edit.
 - Scan
 - Simulation
 
-- **Scapy - Packet capture**
-- Packet Defence tactics against packets and malicious IPs
-- Logging system for information
 
 ## Installation:
 There is a small script at the first run that will install these packages automatically:
