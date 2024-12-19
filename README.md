@@ -12,7 +12,7 @@ Everything is modular and free to edit.
 ## Need to do:
 - SO MUCH TESTING ; _ ;
 - Clean code and do something about the data structures
-- Update Actions data structure
+- Update "suspicious_and_threat_patterns" data structure
 - Fix UI
 - Fix Script not working in UI
 - Fix Bandwidth test
