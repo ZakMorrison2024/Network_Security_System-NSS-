@@ -3,6 +3,8 @@
 
 A system that uses non-ML AI to monitor and defend against unwanted and potentially threatening traffic.
 
+A sophisticated system leveraging rule-based artificial intelligence to monitor, analyze, and defend against malicious or unwanted network traffic, ensuring proactive threat detection and response without relying on machine learning models
+
 Everything is modular and free to edit.
 
 
