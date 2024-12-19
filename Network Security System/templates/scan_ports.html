@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port Scan Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Port Scan Results</h1>
+   <a href ="/" button type="submit">Back</button> </a>
+    <table>
+        <tr>
+            <th>IP Address</th>
+            <th>Open TCP Ports</th>
+            <th>Open UDP Ports</th>
+        </tr>
+        {% for result in results %}
+        <tr>
+            <td>{{ result.ip }}</td>
+            <td>
+                {% if result.tcp_ports %}
+                    {{ result.tcp_ports | join(", ") }}
+                {% else %}
+                    No TCP Ports Open
+                {% endif %}
+            </td>
+            <td>
+                {% if result.udp_ports %}
+                    {{ result.udp_ports | join(", ") }}
+                {% else %}
+                    No UDP Ports Open
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
