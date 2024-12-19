@@ -30,6 +30,10 @@ Everything is modular and free to edit.
 - Packet Defence tactics against packets and malicious IPs
 - Logging system for information
 
+## TO USE:
+- run NSS.py
+- goto localhost:5000 in web-browser
+
 ### Pages:
 - Admin_dash
 - Base
