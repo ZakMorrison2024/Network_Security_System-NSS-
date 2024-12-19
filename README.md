@@ -50,14 +50,13 @@ Requires `nmap` https://nmap.org/ and `npcap` https://npcap.com/
 - Logging system for information
 
 ### Pages:
-- Admin_dash
-- Base
+- Admin Dashboard
 - Controls
 - Devices
 - Index
 - Login
-- Network_traffic
-- Message_admin
+- Network Traffic Graphics
+- Message Administrator
 - Scan
 - Simulation
 
