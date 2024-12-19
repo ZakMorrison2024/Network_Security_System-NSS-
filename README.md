@@ -45,7 +45,6 @@ There is a small script at the first run that will install these packages automa
 - nmap',  # Python Nmap library for network scanning
 - 'requests',  # HTTP library for making requests
 - 'psutil',  # Library for system monitoring
-- 'numpy',  # Numerical computing library
 - 'matplotlib',  # Plotting library for charts
 - 'ipaddress',  # Library for dealing with IP addresses
 
