@@ -70,4 +70,4 @@ Requires `nmap` and `npcap`
 
 Please message me with any problems.
 
-They may not be updates for a while.
+There may not be updates for a while.
