@@ -28,7 +28,6 @@ Everything is modular and free to edit.
 - I plan on implementing this on a Raspberry Pi next to my hub 🙂
 
 ## Installation:
-There is a small script at the first run that will install these packages automatically:
 
 ### Required packages:
 - 'flask',  # Flask framework
