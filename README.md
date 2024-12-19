@@ -61,21 +61,21 @@ There is a small script at the first run that will install these packages automa
 Requires `nmap` and `npcap`
 
 ## Defensive actions:
-- block_ip
-- unblock_ip
-- detect_port_scan
-- detect_ddos
-- detect_brute_force
-- rate_limit
-- check_ip_reputation
-- network_segmentation
-- dns_sinkhole
-- deploy_honeypot
-- reroute_ip_traffic
-- throttle_brute_force
-- check_ip_spoofing
-- mitm_prevention
-- Fake_data_injection
+- block_ip # Blocks Target IP
+- unblock_ip # Unblocks Target IP (Will need to impliment this better!)
+- detect_port_scan # Detects if someone is port scanning you
+- detect_ddos # Detect Denial of Service Attack
+- detect_brute_force # Detect Brute Force Attack
+- rate_limit # Limit Requests
+- check_ip_reputation # Compares IP Address with External Intelligence Database
+- network_segmentation # Segments Network
+- dns_sinkhole # DNS Sinkhole
+- deploy_honeypot # Honeypot to Scam Invaders
+- reroute_ip_traffic # Reroute Traffic
+- throttle_brute_force # Limit Requests
+- check_ip_spoofing # Check for Spoofing
+- mitm_prevention # Prevents Man in the Middle Attack
+- Fake_data_injection # "Ah! Ah! Ahhhhhh!, You forgot the magic word!"
 
 Please message me with any problems.
 
