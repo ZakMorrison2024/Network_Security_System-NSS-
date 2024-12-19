@@ -18,7 +18,7 @@ Everything is modular and free to edit.
 - And more!! : _ :
 
 ## Personal:
-- I have no idea about network security, this thing is 100% flawed, but I tried something left field. (You can say whatever you want man, taunting me for trying is a sign of weakness :L)
+- I have no idea about network security, this thing is 100% flawed, but I tried something left field. (You can say whatever you want man, taunting me for trying is a sign of weakness! :L)
 - I haven’t done vigorous testing; that is coming with more improvements.
 - This is just a fun project for no reason but to learn.
 - I plan on implementing this on a Raspberry Pi next to my hub 🙂
