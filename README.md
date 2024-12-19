@@ -23,16 +23,15 @@ Everything is modular and free to edit.
 - This is just a fun project for no reason but to learn.
 - I plan on implementing this on a Raspberry Pi next to my hub 🙂
 
+## TO USE:
+- run NSS.py
+- goto localhost:5000 in web-browser
 
 ## Features:
 - **Flask - Web UI** - with various features and commands
 - **Scapy - Packet capture**
 - Packet Defence tactics against packets and malicious IPs
 - Logging system for information
-
-## TO USE:
-- run NSS.py
-- goto localhost:5000 in web-browser
 
 ### Pages:
 - Admin_dash
