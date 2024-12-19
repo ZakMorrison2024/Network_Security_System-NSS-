@@ -11,6 +11,7 @@ Everything is modular and free to edit.
 
 ## Need to do:
 - Clean code and do something about the data structures
+- Update Actions data structure
 - Fix UI
 - Fix Script not working in UI
 - Fix Bandwidth test
