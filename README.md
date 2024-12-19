@@ -16,7 +16,7 @@ Everything is modular and free to edit.
 - Clean code and do something about the data structures
 - Update "suspicious_and_threat_patterns" data structure
 - Fix UI
-- Fix Script not working in UI
+- Fix Scripts/Actions not working in UI
 - Fix Bandwidth test
 - Fix logs not showing in Web-UI
 - And more!! : _ :
